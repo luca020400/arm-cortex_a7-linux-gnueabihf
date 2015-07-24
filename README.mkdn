@@ -9,9 +9,9 @@ Built using crosstool-ng
 
 Support GCC Versions:
 --------------------
-* __GCC 4.8.5
-* __GCC 4.9.3
-* __GCC 5.1
-* __GCC 5.2
+* GCC 4.8.5
+* GCC 4.9.3
+* GCC 5.1
+* GCC 5.2
 
 Sample Config : https://goo.gl/SD4w3C
