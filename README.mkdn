@@ -7,7 +7,7 @@ Optimized for ARM Cortex-a7 CPUs
 Built using crosstool-ng
 ------------------------
 
-Support GCC Versions:
+GCC Versions:
 --------------------
 * GCC 4.8.5
 * GCC 4.9.3
