@@ -9,4 +9,4 @@ GCC Versions:
 * GCC 4.8.5
 * GCC 4.9.3
 * GCC 5.1
-* GCC 5.2
+* GCC 5.2.0
