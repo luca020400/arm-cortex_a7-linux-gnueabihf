@@ -19,8 +19,8 @@ import gdb
 import os
 import os.path
 
-pythondir = '/home/luca/tmp/out/arm-cortex_a7-linux-gnueabihf/share/gcc-5.2.0/python'
-libdir = '/home/luca/tmp/out/arm-cortex_a7-linux-gnueabihf/arm-cortex_a7-linux-gnueabihf/lib'
+pythondir = '/home/luca/android/crosstool-ng/out/arm-cortex_a7-linux-gnueabihf/share/gcc-5.2.0/python'
+libdir = '/home/luca/android/crosstool-ng/out/arm-cortex_a7-linux-gnueabihf/arm-cortex_a7-linux-gnueabihf/lib'
 
 # This file might be loaded when there is no current objfile.  This
 # can happen if the user loads it manually.  In this case we don't

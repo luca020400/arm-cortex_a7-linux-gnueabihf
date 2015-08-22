@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/luca/tmp/out/arm-cortex_a7-linux-gnueabihf/lib/gcc/arm-cortex_a7-linux-gnueabihf/5.2.0/plugin'
+libdir='/home/luca/android/crosstool-ng/out/arm-cortex_a7-linux-gnueabihf/lib/gcc/arm-cortex_a7-linux-gnueabihf/5.2.0/plugin'

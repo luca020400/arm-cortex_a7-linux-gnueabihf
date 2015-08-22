@@ -1316,7 +1316,7 @@
 
 /* Define if isl_schedule_constraints_compute_schedule exists. */
 #ifndef USED_FOR_TARGET
-/* #undef HAVE_ISL_SCHED_CONSTRAINTS_COMPUTE_SCHEDULE */
+#define HAVE_ISL_SCHED_CONSTRAINTS_COMPUTE_SCHEDULE 1
 #endif
 
 
