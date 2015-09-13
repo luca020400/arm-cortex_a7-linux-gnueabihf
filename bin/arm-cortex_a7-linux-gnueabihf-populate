@@ -6,8 +6,8 @@ set -e
 
 # Use the tools discovered by crosstool-NG's ./configure:
 install="/usr/bin/install -c"
-grep="/bin/grep"
-sed="/bin/sed"
+grep="/usr/bin/grep"
+sed="/usr/bin/sed"
 
 # Detect where the toolchain is:
 CT_PREFIX_DIR="$(cd "$(dirname "$0")/.."; pwd)"
