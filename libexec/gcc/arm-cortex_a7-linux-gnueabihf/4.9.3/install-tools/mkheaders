@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/home/luca/android/crosstool-ng/out/arm-cortex_a7-linux-gnueabihf
+  prefix=/home/luca/android/crosstool/out/arm-cortex_a7-linux-gnueabihf
 fi
 
 # Allow for alternate isysroot in which to find headers

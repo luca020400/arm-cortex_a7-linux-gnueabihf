@@ -5,7 +5,7 @@
 ;;; This file should be parsed by the same gengtype which wrote it.
 
 (!version  "4.9.3")
-(!srcdir  "/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc")
+(!srcdir  "/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc")
 (!languages 9 ada c cp fortran go java lto objc objcp)
 (!fileslist 195
  (!srcfile 511  "../libcpp/include/line-map.h")
@@ -315,11 +315,11 @@
               (!srcfileloc  "tree-core.h" 729)
               nil )
              (!pair  "u"
-              (!type union 12 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/tree-core.h:731"
+              (!type union 12 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/tree-core.h:731"
                (!srcfileloc  "tree-core.h" 765)
                (!fields 3 
                 (!pair  "bits"
-                 (!type struct 13 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/tree-core.h:734"
+                 (!type struct 13 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/tree-core.h:734"
                   (!srcfileloc  "tree-core.h" 757)
                   (!fields 16 
                    (!pair  "lang_flag_0"
@@ -6617,7 +6617,7 @@
                                )
                               )
                               (!pair  "x"
-                               (!type struct 321 nil  gc_used "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/basic-block.h:187"
+                               (!type struct 321 nil  gc_used "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/basic-block.h:187"
                                 (!srcfileloc  "basic-block.h" 190)
                                 (!fields 2 
                                  (!pair  "head_"
@@ -8592,7 +8592,7 @@
                               (!srcfileloc  "dwarf2out.h" 55)
                               nil )
                              (!pair  "dw_cfi_oprnd1"
-                              (!type union 413 nil  gc_used "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/dwarf2out.h:47"
+                              (!type union 413 nil  gc_used "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/dwarf2out.h:47"
                                (!srcfileloc  "dwarf2out.h" 52)
                                (!fields 4 
                                 (!pair  "dw_cfi_reg_num"
@@ -10904,7 +10904,7 @@
                  )
                 )
                 (!pair  "loc"
-                 (!type union 512 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/tree-core.h:1167"
+                 (!type union 512 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/tree-core.h:1167"
                   (!srcfileloc  "tree-core.h" 1167)
                   (!fields 2 
                    (!pair  "stmt"
@@ -12724,7 +12724,7 @@
                        (!srcfileloc  "c/c-decl.c" 212)
                        (!fields 11 
                         (!pair  "u"
-                         (!type union 585 nil  gc_used "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/c/c-decl.c:198"
+                         (!type union 585 nil  gc_used "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/c/c-decl.c:198"
                           (!srcfileloc  "c/c-decl.c" 201)
                           (!fields 2 
                            (!pair  "type"
@@ -13743,7 +13743,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 644 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/java/expr.c:2060"nil 
+ (!type struct 644 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/java/expr.c:2060"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13870,11 +13870,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 655 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/fortran/trans.h:340"nil 
+ (!type struct 655 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/fortran/trans.h:340"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 656 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/fortran/trans.h:328"nil 
+ (!type struct 656 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/fortran/trans.h:328"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -13898,7 +13898,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 662 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/fortran/trans.h:33"nil 
+ (!type struct 662 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/fortran/trans.h:33"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15149,7 +15149,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 759 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/c/c-parser.c:6068"nil 
+ (!type struct 759 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/c/c-parser.c:6068"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15276,7 +15276,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 768 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/c-family/c-pragma.c:1169"nil 
+ (!type struct 768 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/c-family/c-pragma.c:1169"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -15808,7 +15808,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 828 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/ada/gcc-interface/decl.c:178"nil 
+ (!type struct 828 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/ada/gcc-interface/decl.c:178"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17725,7 +17725,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1013 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:29449"nil 
+ (!type struct 1013 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:29449"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17733,7 +17733,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1015 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:22876"nil 
+ (!type struct 1015 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:22876"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -17752,11 +17752,11 @@
  
  (!type already_seen 1017)
  
- (!type struct 1018 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:2846"nil 
+ (!type struct 1018 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:2846"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1019 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:1852"nil 
+ (!type struct 1019 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/config/arm/arm.c:1852"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18090,7 +18090,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1085 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/tree-eh.c:59"nil 
+ (!type union 1085 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/tree-eh.c:59"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -18720,7 +18720,7 @@
     (!srcfileloc  "gimple.h" 278)
     nil )
    (!pair  "u"
-    (!type union 1126 nil  gc_used "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/gimple.h:281"
+    (!type union 1126 nil  gc_used "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/gimple.h:281"
      (!srcfileloc  "gimple.h" 284)
      (!fields 2 
       (!pair  "fntype"
@@ -18825,11 +18825,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1134 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/varasm.c:4816"nil 
+ (!type struct 1134 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/varasm.c:4816"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1135 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/varasm.c:4572"nil 
+ (!type struct 1135 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/varasm.c:4572"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -18935,7 +18935,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type union 1154 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/mcf.c:344"nil 
+ (!type union 1154 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/mcf.c:344"nil 
   (!fields 0 )
   nil 0 nil )
  
@@ -19851,7 +19851,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1274 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/dwarf2cfi.c:218"nil 
+ (!type struct 1274 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/dwarf2cfi.c:218"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -19863,7 +19863,7 @@
   (!type pointer 1277 nil  gc_unused
    (!type already_seen 1276)
   )
-  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/dwarf2cfi.c:101"nil 
+  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/dwarf2cfi.c:101"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -21916,7 +21916,7 @@
  
  (!type already_seen 1324)
  
- (!type struct 1432 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/config/arm/arm.h:1582"nil 
+ (!type struct 1432 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/config/arm/arm.h:1582"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22004,11 +22004,11 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1448 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/../libcpp/include/cpplib.h:999"nil 
+ (!type struct 1448 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/../libcpp/include/cpplib.h:999"nil 
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1449 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/../libcpp/include/cpplib.h:988"nil 
+ (!type struct 1449 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/../libcpp/include/cpplib.h:988"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -22062,7 +22062,7 @@
   (!fields 0 )
   nil 0 nil nil )
  
- (!type struct 1458 nil  gc_unused "anonymous:/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/../libcpp/include/line-map.h:627"nil 
+ (!type struct 1458 nil  gc_unused "anonymous:/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/../libcpp/include/line-map.h:627"nil 
   (!fields 0 )
   nil 0 nil nil )
  
@@ -27422,7 +27422,7 @@
   nil )
  (!pair  "saved_do_cfi_asm"
   (!type already_seen 9)
-  (!srcfileloc  "dwarf2cfi.c" 3314)
+  (!srcfileloc  "dwarf2cfi.c" 3342)
   nil )
  (!pair  "dwarf2out_cfi_label_num"
   (!type already_seen 9)

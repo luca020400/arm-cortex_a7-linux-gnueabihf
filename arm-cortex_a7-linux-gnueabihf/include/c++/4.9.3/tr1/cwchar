@@ -52,7 +52,7 @@ namespace tr1
   using std::vwscanf;
 #endif
 
-#if _GLIBCXX_USE_C99
+#if defined(_GLIBCXX_USE_C99) || defined(__UCLIBC__)
   using std::wcstold;
   using std::wcstoll;
   using std::wcstoull;

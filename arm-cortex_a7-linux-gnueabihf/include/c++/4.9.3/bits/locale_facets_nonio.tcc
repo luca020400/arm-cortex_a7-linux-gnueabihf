@@ -572,7 +572,7 @@ _GLIBCXX_BEGIN_NAMESPACE_LDBL
     {
       const locale __loc = __io.getloc();
       const ctype<_CharT>& __ctype = use_facet<ctype<_CharT> >(__loc);
-#ifdef _GLIBCXX_USE_C99
+#if defined(_GLIBCXX_USE_C99) || defined(__UCLIBC__)
       // First try a buffer perhaps big enough.
       int __cs_size = 64;
       char* __cs = static_cast<char*>(__builtin_alloca(__cs_size));

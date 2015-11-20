@@ -88,7 +88,7 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
     __builtin_va_list __args;
     __builtin_va_start(__args, __fmt);
 
-#ifdef _GLIBCXX_USE_C99
+#if defined(_GLIBCXX_USE_C99) || defined(__UCLIBC__)
     const int __ret = __builtin_vsnprintf(__out, __size, __fmt, __args);
 #else
     const int __ret = __builtin_vsprintf(__out, __fmt, __args);

@@ -2680,7 +2680,7 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
 _GLIBCXX_END_NAMESPACE_VERSION
 } // namespace
 
-#if ((__cplusplus >= 201103L) && defined(_GLIBCXX_USE_C99))
+#if ((__cplusplus >= 201103L) && (defined(_GLIBCXX_USE_C99) || defined(__UCLIBC__)))
 
 #include <ext/string_conversions.h>
 

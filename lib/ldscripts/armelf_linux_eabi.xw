@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf32-littlearm", "elf32-bigarm",
 	      "elf32-littlearm")
 OUTPUT_ARCH(arm)
 ENTRY(_start)
-SEARCH_DIR("=/home/luca/android/crosstool-ng/out/arm-cortex_a7-linux-gnueabihf/arm-cortex_a7-linux-gnueabihf/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+SEARCH_DIR("=/home/luca/android/crosstool/out/arm-cortex_a7-linux-gnueabihf/arm-cortex_a7-linux-gnueabihf/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

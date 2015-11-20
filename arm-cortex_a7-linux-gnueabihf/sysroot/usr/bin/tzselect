@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKGVERSION="(crosstool-NG crosstool-ng-1.21.0-110-gb634280 - Cortex-A7 - luca020400) "
+PKGVERSION="(crosstool-NG crosstool-ng-1.22.0 - Cortex-A7 - luca020400) "
 TZVERSION="2.22"
 REPORT_BUGS_TO="<http://www.gnu.org/software/libc/bugs.html>"
 

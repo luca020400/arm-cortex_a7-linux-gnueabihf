@@ -146,7 +146,7 @@ namespace std
   using ::vsprintf;
 } // namespace
 
-#if _GLIBCXX_USE_C99
+#if defined(_GLIBCXX_USE_C99) || defined(__UCLIBC__)
 
 #undef snprintf
 #undef vfscanf

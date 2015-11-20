@@ -987,7 +987,7 @@ _GLIBCXX_BEGIN_NAMESPACE_LDBL
 	char __fbuf[16];
 	__num_base::_S_format_float(__io, __fbuf, __mod);
 
-#ifdef _GLIBCXX_USE_C99
+#if defined(_GLIBCXX_USE_C99) || defined(__UCLIBC__)
 	// First try a buffer perhaps big enough (most probably sufficient
 	// for non-ios_base::fixed outputs)
 	int __cs_size = __max_digits * 3;

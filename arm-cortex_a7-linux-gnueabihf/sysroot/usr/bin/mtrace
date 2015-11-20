@@ -21,7 +21,7 @@ eval "exec /usr/bin/perl -S $0 $@"
 # <http://www.gnu.org/licenses/>.
 
 $VERSION = "2.22";
-$PKGVERSION = "(crosstool-NG crosstool-ng-1.21.0-110-gb634280 - Cortex-A7 - luca020400) ";
+$PKGVERSION = "(crosstool-NG crosstool-ng-1.22.0 - Cortex-A7 - luca020400) ";
 $REPORT_BUGS_TO = '<http://www.gnu.org/software/libc/bugs.html>';
 $progname = $0;
 

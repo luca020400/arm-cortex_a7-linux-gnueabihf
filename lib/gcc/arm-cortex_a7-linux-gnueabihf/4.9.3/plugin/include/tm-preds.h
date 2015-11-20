@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/home/luca/android/crosstool-ng/.build/src/gcc-4.9.3/gcc/config/arm/arm.md'.  */
+   from the machine description file '/home/luca/android/crosstool/.build/src/gcc-4.9.3/gcc/config/arm/arm.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H
